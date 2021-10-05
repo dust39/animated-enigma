@@ -18,17 +18,36 @@
 
 
 <body>
-    <header>
+    <header class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <img src="../images/Summation.svg" alt="Summation symbol" />
+                <h1>Animated-Enigma</h1>
+                <h2>Project</h2>
+               
+            </section>
 
+
+        </div> <!--This is the end of Header Row-->
     </header>
-    <nav>
-
+    
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="button1"> &#9776;</button>
+                <ul id="primarynavigation">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class><a href="#">2nd Page</a></li>
+                    <li class><a href="#">About Us</a></li>
+                </ul>
+            </button>
+            <!--This is the end of NAV Row-->
     </nav>
+
     <main>
-        <h1>THIS IS THE VERY FIRST CONTENT ON THE PROJECT SITE</h1>
+        <h1>Home</h1>
     </main>
     <footer class="clearfix">
-        <div class="row">
+        <div class="row limited">
             <section class="column small-12 medium-6 large-3">
                 <h2>Area1</h2>
                 <ul>
@@ -69,9 +88,14 @@
 
             
 
-        </div> <!-- This is the end of the row -->
+        </div> <!-- This is the end of the Footer row -->
 
     </footer>
+
+<!--JS BUTTON CODE -->
+
+<script src="../js/buttonToggle.js"></script> 
+
 </body>
 
 </html>
