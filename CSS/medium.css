@@ -1,13 +1,15 @@
 @media only screen and (min-width: 768px) {
 
 header h1 { font-size: 2.85rem;}
-header h2 { font-size: 1.5rem;}
+header h2 { font-size: 1.5rem;} 
 header img{ height: 115px; width: 115px;}
 
 .medium-6{
     width:50%
 }
 
+
+nav { top: 125px;}
 nav button {display: none;}
 nav ul {display: block;}
 nav li {width: 25%; float: left;}
