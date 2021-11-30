@@ -5,7 +5,7 @@
 
 
 ## My Site 
-You dont need anything special to view my site. Is is hosted right here on Github. Just use the following link [ClickHere] (https://dust39.github.io/animated-enigma/).  You will also notice that my navigation pane and my footer pane stay fixed while scrolling. Please let me know what you think, all of my contact info can be found on my GitHub Profile page, [ClickHere] (https://github.com/dust39).
+You dont need anything special to view my site. Is is hosted right here on Github. Just use the following link [ClickHere](https://dust39.github.io/animated-enigma/).  You will also notice that my navigation pane and my footer pane stay fixed while scrolling. Please let me know what you think, all of my contact info can be found on my GitHub Profile page, [ClickHere](https://github.com/dust39).
 
 ### My Project Features
 #### Media Queries
@@ -21,7 +21,7 @@ I have a simple Javascript feature with a button toggle function, aptly named "b
 This is a work in progress.
 
 #### Git / GitHub
-I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check it out my commit history on this project [Here] (https://github.com/dust39/animated-enigma/commits/main).
+I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check it out my commit history on this project [Here](https://github.com/dust39/animated-enigma/commits/main).
 -Git init : to initialize my lcoal repository
 -Git status: to check the status of any file changes in my local repository.
 -Git add: to add my changed files to a staging area.
