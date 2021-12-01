@@ -246,8 +246,8 @@ main img{
     display: block;
     background: #f04b4c;
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 150px;
+    width: 150px;
     margin: 25px;
     animation-name:circleanimation;
     animation-duration: 5s;
