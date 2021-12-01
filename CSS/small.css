@@ -169,7 +169,7 @@ footer a{
 
   /* Navigation styles/rules */
   
-  button#button1{
+  button{
       background:none;
       border:none;
       color:#3d6098;
@@ -242,8 +242,6 @@ main img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-shrink: 3;
     max-width: 100%;
     
 }
