@@ -1,6 +1,6 @@
 # Hello There
 
-My intent for this project is to demonstrate my HTML,CSS, Java Script knowledge, and Git/GitHub knowledge. You will see that my website is developed with a mobile first approach. You will notice that I used media queries to make adjustments based on the size of the user's screen. As of the writing of this Readme, you will be able to observe that I have over 20 Git commits, I will most likely have more by the time this project is finished. I used Javascript in this project to show/hide content areas. You will see that I used CSS flexbox, CSS Grid, and CSS Animation in this project.
+My intent for this project is to demonstrate my HTML, CSS, Java Script, and Git/GitHub knowledge. You will see that my website is developed with a mobile first approach. You will notice that I used media queries to make adjustments based on the size of the user's screen. As of the writing of this Readme, you will be able to observe that I have over 20 Git commits, I will most likely have more by the time this project is finished. I used Javascript in this project to show/hide content areas. You will see that I used CSS flexbox, CSS Grid, and CSS Animation in this project.
 
 
 
@@ -21,15 +21,15 @@ I have a simple Javascript feature with a button toggle function, aptly named "b
 This is a work in progress.
 
 #### Git / GitHub
-I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check it out my commit history on this project [Here](https://github.com/dust39/animated-enigma/commits/main).
-- Git init : to initialize my lcoal repository.
+I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://github.com/dust39/animated-enigma/commits/main).
+- Git init : to initialize my local repository.
 - Git status: to check the status of any file changes in my local repository.
 - Git add: to add my changed files to a staging area.
 - Git commit: to commit my changed files.
 - Git push: to push my local commits up to my GitHub respository.
 
 #### Conclusion
-Is there ever a conclusion in technology??? I learned so much working on this project. It may seem simple on the surface, but the amount the I have learned is incredible. I loved the challenge and I look forward to continuing my coding adventure. Thank you to Code Kentucky for this opportunity and Thank You for looking at my project!
+Is there ever a conclusion in technology??? I learned so much working on this project. It may seem simple on the surface, but the amount the I have learned is incredible. I loved the challenge and I look forward to continuing my coding adventure. Thank You to Code Kentucky for this opportunity and Thank You for looking at my project!
 
 
 
