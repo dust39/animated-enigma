@@ -15,10 +15,10 @@ I have several instances of media queries based on small, medium, and large scre
 3. The 3rd media query looks at the screenr resolution for large size screens or 1024 or bigger. The main feature you will notice is that the navigation text gets smaller and the navigation links push over to the left.
 
 #### Javascript
-I have a simple Javascript feature with a button toggle function, aptly named "buttonToggle". When in mobile mode, this script expands my hamburger button to show the content of my navigation links. When clicked again, the hamburger button collapses and hides my navigation.
+I have a simple Javascript feature with a button toggle function, aptly named "buttonToggle". When in mobile mode, this script expands my hamburger button to show the content of my navigation links. When clicked again, the hamburger button collapses and hides my navigation. Additionally, I used Javascript in my CSS Animation, clicking the button "Re-Start Animation" starts the animation over again. Finally, the animation starts off as a circle, but click the button changes it to a square using Javascript, and the restart animation button works for this as well.
 
 #### CSS Animation
-This is a work in progress.
+My CSS animation is a simple Circle that transitions from red to blue. Pressing the "Re-Start Animation" triggers the animation to restart.
 
 #### Git / GitHub
 I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://github.com/dust39/animated-enigma/commits/main).

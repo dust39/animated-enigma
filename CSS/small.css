@@ -26,6 +26,7 @@ body{
 
 .hero-image img{
     height:300px;
+    width:100%;
 }
 
 .column{
@@ -170,22 +171,22 @@ footer a{
   
   button#button1{
       background:none;
-      border:solid;
+      border:none;
       color:#3d6098;
       font-size: 2.4rem;
       cursor: pointer;
       padding: 0 30px 0 2vw;
   }
 
-  button#button2{
+  .animationbuttons{
     background:#f04b4c;
     border:solid;
     color:#3d6098;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     cursor: pointer;
-    padding: 16px;
+    padding: 5px;
     margin:25px;
-    width:200px;
+    width: 175px;
 }
 
 
@@ -236,32 +237,44 @@ main img{
     height: auto;
 }
 
-.animation{
+.animation-flexbox{
     display:flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    max-width: 100%;
+    
 }
 
-.circle {
+.circleproperties {
     display: block;
     background: #f04b4c;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin: 25px;
-    animation-name:circleanimation;
+    animation-name:shapeanimation;
     animation-duration: 5s;
   }
 
-  .circleclose{
-      display:none;
+  .squareproperties {
+    display: block;
+    background: #f04b4c;
+    border-radius: 0%;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    animation-name:shapeanimation;
+    animation-duration: 5s;
   }
-
-  @keyframes circleanimation{
+  
+  @keyframes shapeanimation{
       from{background-color:#f04b4c;}
       to{background-color:#3d6098;}
   }
 
-  .clearfix h1{
+  main.clearfix h1{
       color:#3d6098;
   }
