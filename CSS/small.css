@@ -7,6 +7,12 @@ body{
     font-weight:300;
 }
 
+p{
+    font-size: 16px;
+    color: #f04b4c;
+    text-align: center;
+}
+
 /* Grid Rules */
 .row{
     clear: both;
@@ -25,7 +31,7 @@ body{
 }
 
 .hero-image img{
-    height:300px;
+    height:150px;
     width:100%;
 }
 
@@ -185,7 +191,7 @@ footer a{
     font-size: 1.0rem;
     cursor: pointer;
     padding: 5px;
-    margin:25px;
+    margin:10px;
     width: 175px;
 }
 
@@ -243,15 +249,17 @@ main img{
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    margin:0;
+    padding:0;
     
 }
 
 .circleproperties {
     display: block;
-    background: #f04b4c;
+    background: #3d6098;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin: 25px;
     animation-name:shapeanimation;
     animation-duration: 5s;
@@ -259,18 +267,18 @@ main img{
 
   .squareproperties {
     display: block;
-    background: #f04b4c;
+    background: #3d6098;
     border-radius: 0%;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin: 25px;
     animation-name:shapeanimation;
     animation-duration: 5s;
   }
   
   @keyframes shapeanimation{
-      from{background-color:#f04b4c;}
-      to{background-color:#3d6098;}
+      from{background-color:#3d6098;}
+      to{background-color:#f04b4c;}
   }
 
   main.clearfix h1{
