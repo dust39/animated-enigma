@@ -5,7 +5,7 @@ My intent for this project is to demonstrate my HTML, CSS, Java Script, and Git/
 
 
 ## My Site 
-You dont need anything special to view my site. Is is hosted right here on Github. Just use the following link [ClickHere](https://dust39.github.io/animated-enigma/).  You will also notice that my navigation pane and my footer pane stay fixed while scrolling. Please let me know what you think, all of my contact info can be found on my GitHub Profile page, [ClickHere](https://github.com/dust39).
+You dont need anything special to view my site. Is is hosted right here on Github. Just use the following link [ClickHere](https://dust39.github.io/animated-enigma/).  I had a lot of fun doing this and I learned alot! Please let me know what you think, all of my contact info can be found on my GitHub Profile page, [ClickHere](https://github.com/dust39).
 
 ### My Project Features
 #### Media Queries
