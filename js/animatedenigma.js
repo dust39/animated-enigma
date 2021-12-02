@@ -28,7 +28,7 @@ function animationStart() {
 
    
         if( shape.className == "circleproperties squareproperties"){
-            console.log(shape.className)
+           // console.log(shape.className)
             
           document.getElementById("shape").classList.remove("circleproperties");
           document.getElementById("shape").classList.remove("squareproperties");

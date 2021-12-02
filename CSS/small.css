@@ -30,6 +30,13 @@ p{
     font-size: 16px;
     color: #f04b4c;
     text-align: center;
+    margin:5px;
+    line-height: 1.5;
+}
+
+.profile{
+    margin:5px;
+    line-height: 1.5;
 }
 
 main{
@@ -40,6 +47,9 @@ main h1{
     color:#3d6098;
 }
 
+em{
+    font-weight: 700;
+}
 
 
 /* End Basic Style Rules */
