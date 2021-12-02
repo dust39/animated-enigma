@@ -1,8 +1,14 @@
 @media only screen and (min-width: 768px) {
 
+/*This shows I can manipulate content with Media Query, Header size changes*/
+
 header h1 { font-size: 2.85rem;}
 header h2 { font-size: 1.5rem;} 
 header img{ height: 115px; width: 115px;}
+
+p{
+    max-width: 25%;
+}
 
 
 .hero-image img{
@@ -10,19 +16,23 @@ header img{ height: 115px; width: 115px;}
     width:100%;
 }
 
-.medium-6{
-    width:50%
-}
 
-
-nav { top: 125px;}
+/*This shows I can manipulate content with Media Query, Nav placement changes*/
+nav { top: 115px;}
 nav button {display: none;}
 nav ul {display: block;}
 nav li {width: 25%; float: left;}
 
-.medium-4{
-    width: 33.33333%;
+.centeranimationbuttons{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin:0;
+    padding:0;
 }
+
 
 
 

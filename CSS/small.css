@@ -2,11 +2,28 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
 
+
+/* Basic Style Rules*/
 body{
     font-size: 16px;
     font-weight:300;
-    
+}
 
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.maincontents {
+    display: flex;
+    flex-direction: column;
+    flex:wrap;
+    
+}
+  
+.footer {
+    margin-top: auto;
+    background-color: green;
 }
 
 p{
@@ -15,16 +32,18 @@ p{
     text-align: center;
 }
 
-/* Grid Rules */
-.row{
-    clear: both;
+main{
+    max-width: 100%;
+}
+
+main h1{
+    color:#3d6098;
 }
 
 
-.limited{
-    max-width: 75%;
-    margin: auto;
-}
+
+/* End Basic Style Rules */
+
 
 .hero-image{
     max-width:100%;
@@ -37,39 +56,31 @@ p{
     width:100%;
 }
 
-.column{
-    float: left; padding: 0 2vw; margin: 0 0 .75rem 0;
+/*.column{
+    float: left; 
+    padding: 0 2vw; 
+    margin: 0 0 .7rem 0;
     text-align: center;
+    width:100%
 }
-
-
-
-.small-12{
-    width:100%;
-}
-
-.small-6 {
-    width: 50%;
-}
-
+*/
 
 /* These are for header rules */
-
 header{
     background-color: #3d6098;
     position:fixed;
     top:0;
-    width:100%;
-    
-   
+    width:100%; 
    
     
-  }
+}
+
 header img{
     float: left;
     height: 65px;
     width: 65px;
     padding-right: 16px;
+    margin-left: 20px;
 
 }
 
@@ -87,47 +98,33 @@ header h1, header h2 {
 .fixedheader{
     display:flex;
     flex-direction: column;
-}
+} 
 
 header h1{
     padding: .5rem 0 0 0;
-    font-size: 1.4rem;
-    
-    
-    
-    
-    
-    
+    font-size: 1.4rem;   
 }
 
 header h2{
     padding: .2rem 0 0 0;
     font-size: 1rem;
-    
-
-    
-    
-
-
 }
+
+/* End of Header Rules */
 
 
 /* These are Footer Rules */
 footer{
     background-color:darkgray ;
     font-size: 1.2rem;
-    position: relative;
-    bottom: 0;
+    height:100px;
+    position:sticky;
+    bottom: 0;    
     width:100%;
     display:flex;
     flex-direction: column;
     text-align:center;
     align-items:center;
-    
-  
-
-    
-
 }
 
 footer h2{
@@ -148,15 +145,10 @@ footer ul{
     padding:10px 0 0 0;
     margin: 0 0 10px 0;
     font-size:32px;
-    
-    
-   
-    
 }
 
 footer ul li{
     margin: 0 10px;
-    
 }
 
 footer a{
@@ -167,48 +159,33 @@ footer a{
     font-weight:bold;
 }
 
+/* End of Footer Rules*/
 
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-  /* Navigation styles/rules */
+/* Navigation styles/rules */
   
-  button{
+button{
       background:none;
       border:none;
       color:#3d6098;
       font-size: 2.4rem;
       cursor: pointer;
       padding: 0 30px 0 2vw;
-  }
-
-  .animationbuttons{
-    background:#f04b4c;
-    border:solid;
-    color:#3d6098;
-    font-size: 1.0rem;
-    cursor: pointer;
-    padding: 5px;
-    margin:10px;
-    width: 175px;
 }
 
 
-  nav{
+nav{
       background-color: #f04b4c;
       position:fixed;
       top: 60px;
       width:100%;
-  }
+}
 
   
-  nav ul{
+nav ul{
       margin:0; padding:0;
-        }   
+}   
       
 nav li {
      list-style-type:none;
@@ -221,12 +198,12 @@ nav a{
     text-align: center;
     text-decoration: none;
     font-weight:bold;
-}
+} 
 
 
 nav li.active {
     background-color: rgba(200, 190, 190, 0.5);
-}
+} 
 
 
 nav a:hover {
@@ -245,7 +222,34 @@ main img{
     height: auto;
 }
 
-.animation-flexbox{
+
+/*Animation Rules */
+
+.bodyflexbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: fit-content;
+    margin: 0;
+    padding:0;
+    
+}
+
+.animationbuttons{
+    background:#f04b4c;
+    border:solid;
+    color:#3d6098;
+    font-size: 1.0rem;
+    cursor: pointer;
+    padding: 5px;
+    margin:10px;
+    width: 175px;
+   
+}
+
+.centeranimationbuttons{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -253,36 +257,33 @@ main img{
     max-width: 100%;
     margin:0;
     padding:0;
-    
 }
 
 .circleproperties {
     display: block;
     background: #3d6098;
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     margin: 25px;
     animation-name:shapeanimation;
     animation-duration: 5s;
-  }
+}
 
-  .squareproperties {
+.squareproperties {
     display: block;
     background: #3d6098;
     border-radius: 0%;
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     margin: 25px;
     animation-name:shapeanimation;
     animation-duration: 5s;
-  }
+}
   
-  @keyframes shapeanimation{
+@keyframes shapeanimation{
       from{background-color:#3d6098;}
       to{background-color:#f04b4c;}
   }
 
-  main.clearfix h1{
-      color:#3d6098;
-  }
+ 

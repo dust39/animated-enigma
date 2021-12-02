@@ -1,6 +1,6 @@
 # Hello There
 
-My intent for this project is to demonstrate my HTML, CSS, Java Script, and Git/GitHub knowledge. You will see that my website is developed with a mobile first approach. You will notice that I used media queries to make adjustments based on the size of the user's screen. As of the writing of this Readme, you will be able to observe that I have over 20 Git commits, I will most likely have more by the time this project is finished. I used Javascript in this project to show/hide content areas. You will see that I used CSS flexbox, CSS Grid, and CSS Animation in this project.
+My intent for this project is to demonstrate my HTML, CSS, Java Script, and Git/GitHub knowledge. You will see that my website is developed with a mobile first approach. You will notice that I used media queries to make adjustments based on the size of the user's screen. As of the writing of this Readme, you will be able to observe that I have over 20 Git commits, I will most likely have more by the time this project is finished. I used Javascript in this project to show/hide content areas. You will see that I used CSS flexbox and CSS Animation in this project.
 
 
 
@@ -11,8 +11,8 @@ You dont need anything special to view my site. Is is hosted right here on Githu
 #### Media Queries
 I have several instances of media queries based on small, medium, and large screen sizes.
 1. The site is built mobile first so my main CSS sheet is titled small.css. Any screen resolution below 768 pixels wide will show the site as a single column layout, with a hamburger button for navigation.
-2. The 2nd media query looks at the screen resolution for medium size screens or 768 pixels wide up to 1023 pixels wide. The main feature you will notice is that the navigation text gets larger and the navigation links have equal spacing across the viewport.
-3. The 3rd media query looks at the screenr resolution for large size screens or 1024 or bigger. The main feature you will notice is that the navigation text gets smaller and the navigation links push over to the left.
+2. The 2nd media query looks at the screen resolution for medium size screens or 768 pixels wide up to 1023 pixels wide. The main feature you will notice is that the navigation text gets larger and the navigation links have equal spacing across the viewport. You will also see that on my CSS animation page, the Javascript buttons go to a flexbox row layout vs a column layout for medium and large size screens.
+3. The 3rd media query looks at the screen resolution for large size screens or 1024 or bigger. The main feature you will notice is that the navigation text gets smaller and the navigation links push over to the left. You will also see that on my CSS animation page, the Javascript buttons go to a flexbox row layout vs a column layout for medium and large size screens.
 
 #### Javascript
 I have a simple Javascript feature with a button toggle function, aptly named "buttonToggle". When in mobile mode, this script expands my hamburger button to show the content of my navigation links. When clicked again, the hamburger button collapses and hides my navigation. Additionally, I used Javascript in my CSS Animation, clicking the button "Re-Start Animation" starts the animation over again. Finally, the animation starts off as a circle, but click the button changes it to a square using Javascript, and the restart animation button works for this as well.
