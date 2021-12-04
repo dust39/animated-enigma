@@ -8,17 +8,23 @@ My intent for this project is to demonstrate my HTML, CSS, Java Script, and Git/
 You dont need anything special to view my site. Is is hosted right here on Github. Just use the following link [ClickHere](https://dust39.github.io/animated-enigma/).  I had a lot of fun doing this and I learned alot! Please let me know what you think, all of my contact info can be found on my GitHub Profile page, [ClickHere](https://github.com/dust39).
 
 ### My Project Features
-#### Media Queries
+#### Media Queries Features
 I have several instances of media queries based on small, medium, and large screen sizes.
-1. The site is built mobile first so my main CSS sheet is titled small.css. Any screen resolution below 768 pixels wide will show the site as a single column layout, with a hamburger button for navigation.
-2. The 2nd media query looks at the screen resolution for medium size screens or 768 pixels wide up to 1023 pixels wide. The main feature you will notice is that the navigation text gets larger and the navigation links have equal spacing across the viewport. You will also see that on my CSS animation page, the Javascript buttons go to a flexbox row layout vs a column layout for medium and large size screens.
+1. The site is built mobile first so my main CSS sheet is titled small.css. Any screen resolution below 665 pixels wide will show the site as a single column layout, with a hamburger button for navigation. This navigation content is hidden when the screen size is less than 665 px and the hamburger button must be clicked to display navigation content. Additionally the Javascript buttons on the CSS animation page are in flex-direction-column in mobile version.
+2. The 2nd media query looks at the screen resolution for medium size screens or 665 pixels wide up to 1023 pixels wide. The main feature you will notice is that the navigation is no longer a hamburger button. The Navigation links are no longer hidden. Navigation text gets larger and the navigation links have equal spacing across the viewport. You will also see that on my CSS animation page, the Javascript buttons go to a flexbox row layout vs a column layout for medium and large size screens.
 3. The 3rd media query looks at the screen resolution for large size screens or 1024 or bigger. The main feature you will notice is that the navigation text gets smaller and the navigation links push over to the left. You will also see that on my CSS animation page, the Javascript buttons go to a flexbox row layout vs a column layout for medium and large size screens.
 
-#### Javascript
-I have a simple Javascript feature with a button toggle function, aptly named "buttonToggle". When in mobile mode, this script expands my hamburger button to show the content of my navigation links. When clicked again, the hamburger button collapses and hides my navigation. Additionally, I used Javascript in my CSS Animation, clicking the button "Re-Start Animation" starts the animation over again. Finally, the animation starts off as a circle, but click the button changes it to a square using Javascript, and the restart animation button works for this as well.
+#### Javascript Features
+- Hide Content. I have a simple Javascript feature with a button toggle function, aptly named "buttonToggle". When in mobile mode, this script expands my hamburger button to show the content of my navigation links. When clicked again, the hamburger button collapses and hides my navigation. 
+- Show Change/Content. Additionally, I used Javascript in my CSS Animation. By clicking the button "Re-Start Animation", the CSS animation starts the animation over again. Finally, I used Javascript to allow changing the animation shape. The animation starts off as a circle, but by clicking the "Toggle Square to Circle" the user is able to change the animation shape from a circle to a square. The "Re-Start Animation button also works when the shape is a square as well.
+- Javascript Mathmateical function- I felt I covered the Javascript features requirements with the first two items in this list. However, I was also interested in creating a calculator. I created a Javascript calculator. It is worth noting that I modified existing code that I found from Doro Onome at Section.io online. 
 
-#### CSS Animation
-My CSS animation is a simple Circle that transitions from red to blue. Pressing the "Re-Start Animation" triggers the animation to restart.
+
+#### CSS Features
+- CSS Animation. My CSS animation is a simple Circle that uses CSS Animation to transition from blue to red. Pressing the "Re-Start Animation" triggers the animation to restart. I also incorporated Javascript into this feature to allow the user to change the shape of the animation and to force the animation to restart.
+- CSS Flexbox. 
+    - I used CSS Flex box to change the position of the Javascript buttons in the different media queries. In mobile mode the buttons are stacked in a column. For larger screens the Javascript buttons go to a row layout.
+    - CSS Grid layout is used for my Javascript calculator. I used the "display:grid" property. The calculator itself is setup in 4 columns and 5 rows. It is worth noting that I modified existing code that I found from Doro Onome at Section.io online. I modified the CSS to apply what schemes/styles I needed for my site. I commented out the CSS code to show I understand it.
 
 #### Git / GitHub
 I also learned and utilized Git a great deal through this project. I learned Git terminal command using GitBash. I learned and utilized teriminal commands noted below in the list below. I made commits anytime I made changes and pushed those commits to my GitHub repository. Check out my commit history on this project [Here](https://github.com/dust39/animated-enigma/commits/main).

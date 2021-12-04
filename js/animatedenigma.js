@@ -1,4 +1,6 @@
 
+
+
 var shape = document.getElementById("shape")
 
 
@@ -53,4 +55,6 @@ y.onclick = animationStart;
 
 
 
-
+if (window.matchMedia("(orientation: landscape)").matches) {
+  alert("For this product please use portrait mode!")
+}

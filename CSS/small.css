@@ -111,7 +111,7 @@ header h1, header h2 {
 } 
 
 header h1{
-    padding: .5rem 0 0 0;
+    padding: .8rem 0 0 0;
     font-size: 1.4rem;   
 }
 
@@ -188,7 +188,7 @@ button{
 nav{
       background-color: #f04b4c;
       position:fixed;
-      top: 60px;
+      top: 65px;
       width:100%;
 }
 
@@ -233,7 +233,7 @@ main img{
 }
 
 
-/*Animation Rules */
+
 
 .bodyflexbox{
     display:flex;
@@ -247,6 +247,18 @@ main img{
     
 }
 
+.bodyflexbox1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: fit-content;
+    margin: 0;
+    padding:0;
+    
+}
+/*Animation Rules */
 .animationbuttons{
     background:#f04b4c;
     border:solid;
@@ -296,4 +308,67 @@ main img{
       to{background-color:#f04b4c;}
   }
 
- 
+ /*Caculator Rules- I sourced a good portion of this code from https://www.section.io/engineering-education/building-a-calculator-a-javascript-project-for-beginners/. I then manipulated the CSS for my site. I commented out the css rules to show that I understand what it is doing. */
+
+ /* This styling the calculator grid layout of 4 columns and 5 rows, the black out put box is not included */
+ .calculator-grid {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 60vh;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: minmax(65px, auto) repeat(5, 65px);
+    padding-bottom: 20px;
+    
+    }
+
+    /*This is styling the calculator buttons */
+    .calculator-grid > button {
+      cursor: pointer;
+      font-size: 2rem;
+      border: 1px, solid #FFFFFF;
+      background-color: rbga(255, 255, 255, 0.75);
+      outline: solid #356098;
+      text-align: center;
+      margin:0;
+      padding:0;
+    }
+
+    /* This is allowing the using to see what button they are hovering over by displaying a light gray on hover */
+      .calculator-grid > button:hover {
+        background-color: #a9a9a9;
+      }
+
+
+      /* This is allowing the buttons with class of span to take up two columns */
+      .span-two {
+        grid-column: span 2;
+        color: #f04b4c;
+        background-color:#3d6098;
+      }
+
+
+      /*This is sytyling the black output box at the top of the calculator */
+      .output{
+        grid-column: 1 / -1;
+        background-color: rgba(0, 0, 0, 0.75);
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        outline: solid #356098;
+      }
+      
+      /* This style the previous operand, so if you complete a sequence of 3 + 6, once 3 is pressed it will show as the previous operand and be styled as noted below*/
+      .output .previous-operand{
+        color:red;
+        font-size: 1.5rem;
+      }
+/* This style the previous operand, so if you complete a sequence of 3 + 6, once 3 is pressed it will show as the previous operand color from the selector above the 6 will be styled as noted in the current-operand class below The final result of the equation will be styled as noted in the current-operand class below*/
+      .output .current-operand{
+        color: red;
+        font-size: 2.5rem;
+      }

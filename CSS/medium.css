@@ -23,6 +23,8 @@ nav button {display: none;}
 nav ul {display: block;}
 nav li {width: 25%; float: left;}
 
+/*This shows I can move content with Media Query, Jave script button layout changes to flex-direction row for wider screens placement changes*/
+
 .centeranimationbuttons{
     display:flex;
     flex-direction:row;
@@ -32,6 +34,28 @@ nav li {width: 25%; float: left;}
     margin:0;
     padding:0;
 }
+/* This changes profile picture and paragraph placement when the screen size changes. This forces H1 on index.html to be above other two flex box items */
+div.bodyflexbox1> h1{
+    flex-basis: 100%;
+    text-align: center;
+    margin:10px;
+    border-bottom: 1px;
+}
+/* This changes profile picture and paragraph placement when the screen size changes */
+.profile {
+    max-width: 100%;
+    text-align: center;
+    margin:10px;
+    border-bottom: 1px;
+    
+}
+
+
+
+
+
+
+
 
 
 
