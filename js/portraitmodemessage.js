@@ -1,5 +1,5 @@
 window.addEventListener("orientationchange", function () {
-  if (window.matchMedia("(orientation: portrait)").matches) {
+  if (window.matchMedia("(orientation: landscape)").matches) {
     alert("On smart phones, this product is best used in Portrait mode!")
   }
     else{
