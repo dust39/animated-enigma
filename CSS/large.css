@@ -7,42 +7,20 @@
     nav li {width:auto;}
     nav a {padding: .7rem 1rem;}
 
-    /*This changes the profile paragraph text when the screen size changes */
+
+    div.bodyflexbox1> img{
+        max-width: 35%;
+        margin:5%;
+               
+    }
+
     .profile{
         font-size: 20px;
         line-height: 2;    
-        
-    }
-
-    /* This changes profile picture and paragraph placement when the screen size changes */
-    .bodyflexbox1{
-        display:flex;
-        flex-direction: row-reverse;
-        flex-wrap:wrap;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-        max-height: fit-content;
-        margin: 0;
-        padding:0;
-            
-    }
-
-  /* This changes profile picture and paragraph placement when the screen size changes */
-    div.bodyflexbox1> img{
-        max-width: 33%;
-        margin:5%;
-        
-    }
-/* This changes profile picture and paragraph placement when the screen size changes */styling
-    .profile {
         max-width: 50%;
         text-align: center;
         margin:10px;
-        border-bottom: 1px;
-        
     }
-    
     
 
 }/* end of media query */

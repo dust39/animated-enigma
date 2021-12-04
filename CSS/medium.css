@@ -6,9 +6,7 @@ header h1 { font-size: 2.85rem;}
 header h2 { font-size: 1.5rem;} 
 header img{ height: 115px; width: 115px;}
 
-p{
-    max-width: 25%;
-}
+
 
 
 .hero-image img{
@@ -34,6 +32,11 @@ nav li {width: 25%; float: left;}
     margin:0;
     padding:0;
 }
+
+/* This modifies my text in full screen to be similar in size to the animated shape */
+.animationpagetext {
+    max-width: 25%;
+}
 /* This changes profile picture and paragraph placement when the screen size changes. This forces H1 on index.html to be above other two flex box items */
 div.bodyflexbox1> h1{
     flex-basis: 100%;
@@ -42,22 +45,36 @@ div.bodyflexbox1> h1{
     border-bottom: 1px;
 }
 /* This changes profile picture and paragraph placement when the screen size changes */
-.profile {
-    max-width: 100%;
+.profile{
+    font-size: 18px;
+    line-height: 1.75;    
+    max-width: 40%;
     text-align: center;
     margin:10px;
-    border-bottom: 1px;
-    
 }
 
+/* This changes profile picture and paragraph placement when the screen size changes */
+.bodyflexbox1{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: fit-content;
+    margin: 0;
+    padding:0;
+        
+}
 
-
-
-
-
-
-
-
+/* This changes profile picture and paragraph placement when the screen size changes */
+div.bodyflexbox1> img{
+     max-width: 50%;
+   align-self: flex-start;
+   margin-top: 2%;
+   
+    
+}
 
 
 }/* This is the end of media query */
